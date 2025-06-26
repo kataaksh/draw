@@ -6,6 +6,4 @@ app.get('/', (req, res) => {
     res.json("http backend running")
 })
 
-app.listen(8080, () => {
-    console.log("Works")
-})
+app.listen(3001)
